@@ -214,7 +214,8 @@ begin
   ACBrNFSe1.Configuracoes.Geral.Salvar := true;
   ACBrNFSe1.Configuracoes.Geral.CodigoMunicipio := StrToIntDef(isqlParametro.fieldbyname('CODIGO_MUNICIPIO').AsString, 0);
   ACBrNFSe1.Configuracoes.Geral.SenhaWeb := isqlParametro.fieldbyname('SENHA').AsString;
-  ACBrNFSe1.Configuracoes.Geral.UserWeb := isqlParametro.fieldbyname('USER_WEB').AsString;        
+  ACBrNFSe1.Configuracoes.Geral.UserWeb := isqlParametro.fieldbyname('USER_WEB').AsString;
+    
 
   if isqlParametro.fieldbyname('AGUARDARCONSULTARETORNO').AsInteger > 0 then
     ACBrNFSe1.Configuracoes.WebServices.AguardarConsultaRet := isqlParametro.fieldbyname('AGUARDARCONSULTARETORNO').AsInteger;

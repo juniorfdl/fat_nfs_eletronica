@@ -8,14 +8,14 @@ File_4=SourceModule,'C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeConfiguracoes.pas',
 [Modules]
 Module0=C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas
 Module1=C:\projetos\faturamento\fat_nfs_eletronica\Fat_Nfs_Eletronica.dpr
-Module2=C:\Acbr\Fontes\ACBrDFe\ACBrDFeWebService.pas
-Module3=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeWebServices.pas
-Module4=C:\Acbr\Fontes\ACBrComum\ACBrUtil.pas
-Module5=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSe.pas
-Module6=C:\Acbr\Fontes\ACBrDFe\ACBrDFe.pas
-Module7=C:\acbr\Fontes\ACBrDFe\ACBrNFSe\PCNNFSe\pnfsConversao.pas
-Module8=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeNotasFiscais.pas
-Module9=C:\projetos\base\uDMBase.pas
+Module2=C:\projetos\base\uDMBase.pas
+Module3=C:\Acbr\Fontes\ACBrDFe\ACBrDFe.pas
+Module4=C:\Acbr\Fontes\ACBrDFe\ACBrDFeWebService.pas
+Module5=C:\Acbr\Fontes\ACBrComum\ACBrUtil.pas
+Module6=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeWebServices.pas
+Module7=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSe.pas
+Module8=C:\acbr\Fontes\ACBrDFe\ACBrNFSe\PCNNFSe\pnfsConversao.pas
+Module9=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeNotasFiscais.pas
 Count=10
 EditWindowCount=1
 
@@ -29,12 +29,17 @@ ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
-[C:\Acbr\Fontes\ACBrDFe\ACBrDFeWebService.pas]
+[C:\projetos\base\uDMBase.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
-[C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeWebServices.pas]
+[C:\Acbr\Fontes\ACBrDFe\ACBrDFe.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Acbr\Fontes\ACBrDFe\ACBrDFeWebService.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
@@ -44,12 +49,12 @@ ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
-[C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSe.pas]
+[C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeWebServices.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
-[C:\Acbr\Fontes\ACBrDFe\ACBrDFe.pas]
+[C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSe.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
@@ -60,11 +65,6 @@ FormState=0
 FormOnTop=0
 
 [C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeNotasFiscais.pas]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
-
-[C:\projetos\base\uDMBase.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
@@ -111,19 +111,19 @@ LeftPanelData=00000400010000000C000000436F64654578706C6F726572000000000000000000
 RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=MessageView@EditWindow0
-BottomPanelData=00000400010000000B0000004D6573736167655669657756050000000000000255000000000000000100000000000000000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000B0000004D65737361676556696577FFFFFFFF
+BottomPanelData=00000400010000000B0000004D65737361676556696577560500000000000002550000000000000001000000000000000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000FFFFFFFF
 
 [View0]
 Module=C:\projetos\faturamento\fat_nfs_eletronica\Fat_Nfs_Eletronica.dpr
 CursorX=74
 CursorY=51
-TopLine=47
+TopLine=53
 LeftCol=1
 
 [View1]
 Module=C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas
-CursorX=97
-CursorY=217
+CursorX=3
+CursorY=218
 TopLine=209
 LeftCol=1
 
@@ -208,8 +208,8 @@ Dockable=1
 [Breakpoints]
 Count=4
 Breakpoint0='C:\projetos\faturamento\fat_nfs_eletronica\Fat_Nfs_Eletronica.dpr',87,'',0,1,'',1,0,0,'',1,'','',''
-Breakpoint1='C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas',544,'',0,1,'',1,0,0,'',1,'','',''
-Breakpoint2='C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas',1017,'',0,1,'',1,0,0,'',1,'','',''
+Breakpoint1='C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas',545,'',0,1,'',1,0,0,'',1,'','',''
+Breakpoint2='C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas',1018,'',0,1,'',1,0,0,'',1,'','',''
 Breakpoint3='C:\Acbr\Fontes\ACBrDFe\ACBrDFeWebService.pas',188,'',0,1,'',1,0,0,'',1,'','',''
 
 [AddressBreakpoints]
