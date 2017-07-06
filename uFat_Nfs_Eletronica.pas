@@ -490,6 +490,12 @@ begin
 
   if (OffLine) or (NotaEnviada) then
   begin
+    if OffLine then
+    begin
+      ACBrNFSe1.NotasFiscais.GerarNFSe;
+      ACBrNFSe1.NotasFiscais.GravarXML(ExtractFilePath(Application.ExeName) + 'Xml-Nfs\NfsOffline.xml');
+    end;
+
     if (NotaEnviada) and (not OffLine) then
     begin
       if not dmbase.OperacaoSilenciosa then
@@ -1542,7 +1548,7 @@ end;
 initialization registerclass(TfFat_Nfs_Eletronica);
 
 //initialization
-  rlconsts.setversion(3, 72, 'B');
+  //rlconsts.setversion(3, 72, 'B');
 
 finalization unregisterclass(TfFat_Nfs_Eletronica);
 

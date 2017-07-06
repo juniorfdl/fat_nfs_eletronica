@@ -3,7 +3,6 @@ library Fat_Nfs_Eletronica;
  { DLL padrão do XpSag }
 
 uses
-  //FastMM4,
   MidasLib,
   SysUtils,
   Classes,
@@ -30,10 +29,10 @@ uses
   uDlgEMAIL in '..\..\nf_saida_industria\NFS_Industria\uDlgEMAIL.pas' {fDlgEMAIL},
   uObjFatNFServico in '..\FAT_NF_Servico\uObjFatNFServico.pas',
   uClassListasNfs in 'uClassListasNfs.pas',
-  ACBrNFSeDANFSeRLRetrato in 'ACBrNFSeDANFSeRLRetrato.pas' {frlDANFSeRLRetrato},
-  pnfsConversao in '..\..\..\acbr\Fontes\ACBrDFe\ACBrNFSe\PCNNFSe\pnfsConversao.pas',
-  pnfsNFSe in '..\..\..\acbr\trunk2\fontes\acbrdfe\acbrnfse\pcnnfse\pnfsNFSe.pas',
-  ACBrNFSeDANFSeRL in '..\..\..\Acbr\Fontes\ACBrDFe\ACBrNFSe\DANFSE\Fortes\ACBrNFSeDANFSeRL.pas' {frlDANFSeRL};
+  pnfsConversao in '..\..\..\acbr\trunk2\Fontes\ACBrDFe\ACBrNFSe\PCNNFSe\pnfsConversao.pas',
+  pnfsNFSe in '..\..\..\acbr\trunk2\Fontes\ACBrDFe\ACBrNFSe\PCNNFSe\pnfsNFSe.pas',
+  ACBrNFSeDANFSeRL in '..\..\..\acbr\trunk2\Fontes\ACBrDFe\ACBrNFSe\DANFSE\Fortes\ACBrNFSeDANFSeRL.pas' {frlDANFSeRL},
+  ACBrNFSeDANFSeRLRetrato in '..\..\..\acbr\trunk2\Fontes\ACBrDFe\ACBrNFSe\DANFSE\Fortes\ACBrNFSeDANFSeRLRetrato.pas' {frlDANFSeRLRetrato};
 
 {$R *.res}
 
@@ -45,7 +44,6 @@ var
   resultado: Integer;
   ArquivoErro: string;
 begin
-  //result := id;
   try
     if fFat_Nfs_Eletronica = nil then
       fFat_Nfs_Eletronica := TfFat_Nfs_Eletronica.Create(Application);   
@@ -110,8 +108,8 @@ begin
 end;
 
 exports
-  //AbrirDll, Existe_Form_em_uso_dll,
-  emitirWeb;
+  AbrirDll, Existe_Form_em_uso_dll;
+  //emitirWeb;
 
 begin
 end.

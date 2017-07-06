@@ -1,32 +1,55 @@
 [Closed Files]
-File_0=SourceModule,'C:\Acbr\Fontes\ACBrDFe\ACBrDFeException.pas',0,1,62,24,65,0,0
-File_1=SourceModule,'C:\Acbr\Fontes\ACBrDFe\ACBrDFeSSL.pas',0,1,639,23,646,0,0
-File_2=SourceModule,'C:\DMSD\Girotto\uClassFuncaoGlobal.pas',0,1,3488,56,3504,0,0
-File_3=SourceModule,'c:\program files (x86)\borland\delphi7\source\rtl\Sys\sysutils.pas',0,1,13235,1,13250,0,0
-File_4=SourceModule,'C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeConfiguracoes.pas',0,1,54,1,69,0,0
+File_0=SourceModule,'c:\program files (x86)\borland\delphi7\source\rtl\common\IniFiles.pas',0,1,115,1,130,0,0
+File_1=SourceModule,'C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\PCNNFSe\pnfsNFSeR.pas',0,1,726,1,719,0,0
+File_2=SourceModule,'C:\Acbr\Fontes\ACBrDFe\ACBrNFe\PCNNFe\pcnProcNFe.pas',0,1,292,1,133,0,0
+File_3=SourceModule,'C:\Acbr\Fontes\ACBrDFe\ACBrDFeException.pas',0,1,62,24,65,0,0
+File_4=SourceModule,'C:\Acbr\Fontes\ACBrDFe\ACBrDFeSSL.pas',0,1,639,23,646,0,0
+File_5=SourceModule,'C:\DMSD\Girotto\uClassFuncaoGlobal.pas',0,1,3488,56,3504,0,0
+File_6=SourceModule,'c:\program files (x86)\borland\delphi7\source\rtl\Sys\sysutils.pas',0,1,13235,1,13250,0,0
+File_7=SourceModule,'C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeConfiguracoes.pas',0,1,54,1,69,0,0
 
 [Modules]
-Module0=C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas
-Module1=C:\projetos\faturamento\fat_nfs_eletronica\Fat_Nfs_Eletronica.dpr
-Module2=C:\projetos\base\uDMBase.pas
-Module3=C:\Acbr\Fontes\ACBrDFe\ACBrDFe.pas
-Module4=C:\Acbr\Fontes\ACBrDFe\ACBrDFeWebService.pas
-Module5=C:\Acbr\Fontes\ACBrComum\ACBrUtil.pas
-Module6=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeWebServices.pas
-Module7=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSe.pas
-Module8=C:\acbr\Fontes\ACBrDFe\ACBrNFSe\PCNNFSe\pnfsConversao.pas
-Module9=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeNotasFiscais.pas
-Count=10
+Module0=C:\projetos\faturamento\fat_nfs_eletronica\Fat_Nfs_Eletronica.dpr
+Module1=C:\projetos\GirLib\uGirObjDLL.pas
+Module2=C:\projetos\base\uFormCadBase.pas
+Module3=C:\projetos\base\uFormBase.pas
+Module4=C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas
+Module5=C:\projetos\base\uDMBase.pas
+Module6=C:\Acbr\Fontes\ACBrDFe\ACBrDFe.pas
+Module7=C:\Acbr\Fontes\ACBrDFe\ACBrDFeWebService.pas
+Module8=C:\Acbr\Fontes\ACBrComum\ACBrUtil.pas
+Module9=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeWebServices.pas
+Module10=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSe.pas
+Module11=C:\acbr\Fontes\ACBrDFe\ACBrNFSe\PCNNFSe\pnfsConversao.pas
+Module12=C:\Acbr\Fontes\ACBrDFe\ACBrNFe\ACBrNFeWebServices.pas
+Module13=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeNotasFiscais.pas
+Module14=C:\acbr\trunk2\fontes\acbrdfe\acbrnfse\pcnnfse\pnfsNFSe.pas
+Count=15
 EditWindowCount=1
-
-[C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas]
-ModuleType=SourceModule
-FormState=1
-FormOnTop=0
 
 [C:\projetos\faturamento\fat_nfs_eletronica\Fat_Nfs_Eletronica.dpr]
 ModuleType=SourceModule
 FormState=0
+FormOnTop=0
+
+[C:\projetos\GirLib\uGirObjDLL.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\projetos\base\uFormCadBase.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[C:\projetos\base\uFormBase.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas]
+ModuleType=SourceModule
+FormState=1
 FormOnTop=0
 
 [C:\projetos\base\uDMBase.pas]
@@ -64,7 +87,17 @@ ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
+[C:\Acbr\Fontes\ACBrDFe\ACBrNFe\ACBrNFeWebServices.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
 [C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeNotasFiscais.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\acbr\trunk2\fontes\acbrdfe\acbrnfse\pcnnfse\pnfsNFSe.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
@@ -73,13 +106,9 @@ FormOnTop=0
 FormState=0
 FormOnTop=0
 
-[C:\projetos\base\uFormBase.pas]
-FormState=0
-FormOnTop=0
-
 [EditWindow0]
-ViewCount=10
-CurrentView=1
+ViewCount=15
+CurrentView=0
 View0=0
 View1=1
 View2=2
@@ -90,6 +119,11 @@ View6=6
 View7=7
 View8=8
 View9=9
+View10=10
+View11=11
+View12=12
+View13=13
+View14=14
 CodeExplorer=CodeExplorer@EditWindow0
 MessageView=MessageView@EditWindow0
 Create=1
@@ -111,76 +145,111 @@ LeftPanelData=00000400010000000C000000436F64654578706C6F726572000000000000000000
 RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=MessageView@EditWindow0
-BottomPanelData=00000400010000000B0000004D65737361676556696577560500000000000002550000000000000001000000000000000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000FFFFFFFF
+BottomPanelData=00000400010000000B0000004D6573736167655669657756050000000000000255000000000000000100000000000000000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000000000001000000005605000000000000FFFFFFFF
 
 [View0]
 Module=C:\projetos\faturamento\fat_nfs_eletronica\Fat_Nfs_Eletronica.dpr
-CursorX=74
-CursorY=51
-TopLine=53
+CursorX=32
+CursorY=59
+TopLine=93
 LeftCol=1
 
 [View1]
 Module=C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas
-CursorX=3
-CursorY=218
-TopLine=209
+CursorX=23
+CursorY=183
+TopLine=180
 LeftCol=1
 
 [View2]
-Module=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeNotasFiscais.pas
+Module=C:\projetos\base\uFormBase.pas
 CursorX=1
-CursorY=692
-TopLine=675
+CursorY=131
+TopLine=128
 LeftCol=1
 
 [View3]
+Module=C:\projetos\base\uFormCadBase.pas
+CursorX=55
+CursorY=2763
+TopLine=2739
+LeftCol=1
+
+[View4]
+Module=C:\projetos\GirLib\uGirObjDLL.pas
+CursorX=1
+CursorY=1
+TopLine=220
+LeftCol=1
+
+[View5]
+Module=C:\acbr\trunk2\fontes\acbrdfe\acbrnfse\pcnnfse\pnfsNFSe.pas
+CursorX=39
+CursorY=1202
+TopLine=1109
+LeftCol=1
+
+[View6]
+Module=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeNotasFiscais.pas
+CursorX=40
+CursorY=464
+TopLine=458
+LeftCol=1
+
+[View7]
+Module=C:\Acbr\Fontes\ACBrDFe\ACBrNFe\ACBrNFeWebServices.pas
+CursorX=30
+CursorY=1131
+TopLine=1108
+LeftCol=1
+
+[View8]
 Module=C:\acbr\Fontes\ACBrDFe\ACBrNFSe\PCNNFSe\pnfsConversao.pas
 CursorX=1
 CursorY=408
 TopLine=389
 LeftCol=1
 
-[View4]
+[View9]
 Module=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSe.pas
 CursorX=1
 CursorY=528
 TopLine=511
 LeftCol=1
 
-[View5]
+[View10]
 Module=C:\Acbr\Fontes\ACBrDFe\ACBrNFSe\ACBrNFSeWebServices.pas
 CursorX=1
 CursorY=3280
 TopLine=3263
 LeftCol=1
 
-[View6]
+[View11]
 Module=C:\Acbr\Fontes\ACBrComum\ACBrUtil.pas
 CursorX=1
 CursorY=389
 TopLine=364
 LeftCol=1
 
-[View7]
+[View12]
 Module=C:\Acbr\Fontes\ACBrDFe\ACBrDFeWebService.pas
 CursorX=19
 CursorY=427
 TopLine=403
 LeftCol=1
 
-[View8]
+[View13]
 Module=C:\Acbr\Fontes\ACBrDFe\ACBrDFe.pas
 CursorX=1
 CursorY=550
 TopLine=533
 LeftCol=1
 
-[View9]
+[View14]
 Module=C:\projetos\base\uDMBase.pas
-CursorX=38
-CursorY=1480
-TopLine=1456
+CursorX=36
+CursorY=223
+TopLine=220
 LeftCol=1
 
 [Watches]
@@ -206,11 +275,10 @@ LRDockWidth=426
 Dockable=1
 
 [Breakpoints]
-Count=4
-Breakpoint0='C:\projetos\faturamento\fat_nfs_eletronica\Fat_Nfs_Eletronica.dpr',87,'',0,1,'',1,0,0,'',1,'','',''
-Breakpoint1='C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas',545,'',0,1,'',1,0,0,'',1,'','',''
-Breakpoint2='C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas',1018,'',0,1,'',1,0,0,'',1,'','',''
-Breakpoint3='C:\Acbr\Fontes\ACBrDFe\ACBrDFeWebService.pas',188,'',0,1,'',1,0,0,'',1,'','',''
+Count=3
+Breakpoint0='C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas',545,'',0,1,'',1,0,0,'',1,'','',''
+Breakpoint1='C:\projetos\faturamento\fat_nfs_eletronica\uFat_Nfs_Eletronica.pas',1018,'',0,1,'',1,0,0,'',1,'','',''
+Breakpoint2='C:\Acbr\Fontes\ACBrDFe\ACBrDFeWebService.pas',188,'',0,1,'',1,0,0,'',1,'','',''
 
 [AddressBreakpoints]
 Count=0
@@ -278,7 +346,7 @@ ClientHeight=60
 
 [PropertyInspector]
 Create=1
-Visible=1
+Visible=0
 State=0
 Left=963
 Top=39
@@ -331,7 +399,7 @@ Dockable=1
 
 [fmGrepResults]
 Create=1
-Visible=1
+Visible=0
 State=0
 Left=277
 Top=6
